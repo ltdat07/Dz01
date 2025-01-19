@@ -21,7 +21,7 @@ namespace Dz01
             WaitingList.Add(customer);
         }
 
-        public void ProcessSales()
+        public void SaleCar()
         {
             foreach (var customer in WaitingList.Where(c => c.PurchasedCar == null))
             {
