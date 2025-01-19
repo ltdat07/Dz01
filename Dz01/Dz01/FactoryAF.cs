@@ -25,10 +25,10 @@ namespace Dz01
         {
             foreach (var customer in CustomersQueue.Where(c => c.PurchasedCar == null))
             {
-                if (Inventory.Any())
+                if (Cars.Any())
                 {
-                    customer.AssignCar(Inventory[0]);
-                    Inventory.RemoveAt(0);
+                    customer.AssignCar(Cars[0]);
+                    Cars.RemoveAt(0);
                 }
                 else
                 {
@@ -36,23 +36,23 @@ namespace Dz01
                 }
             }
 
-            if (Inventory.Any())
+            if (Cars.Any())
             {
-                Inventory.Clear();
+                Cars.Clear();
                 Console.WriteLine("Remaining cars have been cleared from inventory.");
             }
         }
 
-        public void ShowInventory()
+        public void ShowCars()
         {
             Console.WriteLine("Current inventory of cars:");
-            if (!Inventory.Any())
+            if (!Cars.Any())
             {
                 Console.WriteLine("No cars available.");
             }
             else
             {
-                foreach (var car in Inventory)
+                foreach (var car in Cars)
                 {
                     Console.WriteLine(car);
                 }
@@ -62,7 +62,7 @@ namespace Dz01
         public void ShowCustomers()
         {
             Console.WriteLine("List of customers:");
-            foreach (var customer in WaitingList)
+            foreach (var customer in CustomersQueue)
             {
                 Console.WriteLine(customer);
             }
