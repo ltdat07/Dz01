@@ -19,13 +19,13 @@ namespace Dz01
             factory.AddCustomer(new Customer("Charlie"));
 
             Console.WriteLine("Initial state:");
-            factory.ShowInventory();
+            factory.ShowCars();
             factory.ShowCustomers();
 
             factory.SaleCar();
 
             Console.WriteLine("\nFinal state:");
-            factory.ShowInventory();
+            factory.ShowCars();
             factory.ShowCustomers();
         }
     }
