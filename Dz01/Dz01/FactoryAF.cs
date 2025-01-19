@@ -8,22 +8,22 @@ namespace Dz01
 {
     class FactoryAF
     {
-        private List<Car> Inventory { get; set; } = new List<Car>();
-        private List<Customer> WaitingList { get; set; } = new List<Customer>();
+        private List<Car> Cars { get; set; } = new List<Car>();
+        private List<Customer> CustomersQueue { get; set; } = new List<Customer>();
 
         public void AddCar(Car car)
         {
-            Inventory.Add(car);
+            Cars.Add(car);
         }
 
         public void AddCustomer(Customer customer)
         {
-            WaitingList.Add(customer);
+            CustomersQueue.Add(customer);
         }
 
         public void SaleCar()
         {
-            foreach (var customer in WaitingList.Where(c => c.PurchasedCar == null))
+            foreach (var customer in CustomersQueue.Where(c => c.PurchasedCar == null))
             {
                 if (Inventory.Any())
                 {
