@@ -1,0 +1,14 @@
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\bin\Debug\net8.0\Dz02_kpo.exe
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\bin\Debug\net8.0\Dz02_kpo.deps.json
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\bin\Debug\net8.0\Dz02_kpo.runtimeconfig.json
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\bin\Debug\net8.0\Dz02_kpo.dll
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\bin\Debug\net8.0\Dz02_kpo.pdb
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.AssemblyInfoInputs.cache
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.AssemblyInfo.cs
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.csproj.CoreCompileInputs.cache
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.dll
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\refint\Dz02_kpo.dll
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.pdb
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\Dz02_kpo.genruntimeconfig.cache
+C:\Users\DAT\source\repos\Dz02_kpo\Dz02_kpo\obj\Debug\net8.0\ref\Dz02_kpo.dll
