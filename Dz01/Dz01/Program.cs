@@ -10,13 +10,13 @@ namespace Dz01
         {
             FactoryAF factory = new FactoryAF();
 
-            factory.AddCar(new Car(1, "Large"));
-            factory.AddCar(new Car(2, "Medium"));
-            factory.AddCar(new Car(3, "Small"));
+            factory.AddCar(new Car(1, "Bolshoi"));
+            factory.AddCar(new Car(2, "Sredni"));
+            factory.AddCar(new Car(3, "Malenki"));
 
-            factory.AddCustomer(new Customer("Alice"));
-            factory.AddCustomer(new Customer("Bob"));
-            factory.AddCustomer(new Customer("Charlie"));
+            factory.AddCustomer(new Customer("Alicia"));
+            factory.AddCustomer(new Customer("Bobop"));
+            factory.AddCustomer(new Customer("MJ"));
 
             Console.WriteLine("Initial state:");
             factory.ShowCars();
