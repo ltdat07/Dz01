@@ -15,8 +15,8 @@ class Program
         PedalCarFactory pedalFactory = new PedalCarFactory();
         HandCarFactory handFactory = new HandCarFactory();
 
-        customerStorage.AddCustomer(new Customer("Alicia", 6, 4));
-        customerStorage.AddCustomer(new Customer("Bobop", 4, 6));
+        customerStorage.AddCustomer(new Customer("Denis", 6, 4));
+        customerStorage.AddCustomer(new Customer("Tom", 4, 6));
         customerStorage.AddCustomer(new Customer("MJ", 6, 6));
         customerStorage.AddCustomer(new Customer("Dav", 4, 4));
 
