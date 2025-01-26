@@ -14,8 +14,8 @@ namespace Dz01
             factory.AddCar(new Car(2, "Sredni"));
             factory.AddCar(new Car(3, "Malenki"));
 
-            factory.AddCustomer(new Customer("Alicia"));
-            factory.AddCustomer(new Customer("Bobop"));
+            factory.AddCustomer(new Customer("Denis"));
+            factory.AddCustomer(new Customer("Tom"));
             factory.AddCustomer(new Customer("MJ"));
 
             Console.WriteLine("Initial state:");
